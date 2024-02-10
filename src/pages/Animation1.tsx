@@ -1,14 +1,17 @@
 import { motion } from "framer-motion";
 
 const Animation1 = () => {
-  const initial = { rotate: 0 };
-  const animate = { rotate: 360 };
+  const fadeIn = {
+    initial: { rotate: 0 },
+    animate: { rotate: 360 },
+  };
   return (
     <div>
       <motion.div
         className="w-[200px] h-[200px] bg-blue-500"
-        initial={initial}
-        animate={animate}
+        variants={fadeIn}
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
         transition={{ duration: 1 }}
       ></motion.div>
     </div>
