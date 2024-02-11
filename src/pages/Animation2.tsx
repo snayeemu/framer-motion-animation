@@ -5,10 +5,10 @@ const Animation2 = () => {
     initial: { opacity: 0, scale: 0.9 },
     animate: { opacity: 1, scale: 1 },
   };
-  const fareIn = {
-    initial: { opacity: 0, scale: 0.9 },
-    animate: { opacity: 1, scale: 1 },
-  };
+  //   const fadeIn = {
+  //     initial: { opacity: 0, scale: 0.9 },
+  //     animate: { opacity: 1, scale: 1 },
+  //   };
 
   return (
     <div>
@@ -21,19 +21,19 @@ const Animation2 = () => {
       >
         <motion.div
           className="bg-blue-300 w-[30%] h-[30%]"
-          variants={fareIn}
+          variants={fadeIn}
         ></motion.div>
         <motion.div
           className="bg-blue-300 w-[30%] h-[30%]"
-          variants={fareIn}
+          variants={fadeIn}
         ></motion.div>
         <motion.div
           className="bg-blue-300 w-[30%] h-[30%]"
-          variants={fareIn}
+          variants={fadeIn}
         ></motion.div>
         <motion.div
           className="bg-blue-300 w-[30%] h-[30%]"
-          variants={fareIn}
+          variants={fadeIn}
         ></motion.div>
       </motion.div>
     </div>
