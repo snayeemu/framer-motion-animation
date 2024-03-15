@@ -1,10 +1,11 @@
 import "./App.css";
-import Animation4 from "./pages/Animation4";
+import Animation5 from "./pages/Animation5";
+import Animation6 from "./pages/Animation6";
 
 function App() {
   return (
     <div className="h-[100vh] flex justify-center items-center">
-      <Animation4 />
+      <Animation6 />
     </div>
   );
 }
